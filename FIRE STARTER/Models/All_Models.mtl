@@ -1,0 +1,67 @@
+# Blender MTL File: 'InteriorPack.blend'
+# Material Count: 6
+
+newmtl BG
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.596314 0.416978 0.315912
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Food_01
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\JustCreate\\Project016\\Unity\\Texture\\Texture_01.png
+
+newmtl InteriorPack_01
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\JustCreate\\Project016\\CG-TS\\Texture\\Texture_01.png
+
+newmtl InteriorPack_01.001
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\JustCreate\\Project016\\Unity\\Texture\\Texture_01.png
+
+newmtl InteriorPack_01.002
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\JustCreate\\Project016\\Unity\\Texture\\Texture_01.png
+
+newmtl InteriorPack_01.003
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\JustCreate\\Project016\\Unity\\Texture\\Texture_01.png

@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Models/InteriorPack_01.material" type="Material" id=1]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 129, 0.001, 128 )
+
+[sub_resource type="PlaneMesh" id=2]
+
+[node name="Test Level" type="Spatial"]
+
+[node name="StaticBody" type="StaticBody" parent="."]
+
+[node name="CollisionShape" type="CollisionShape" parent="StaticBody"]
+shape = SubResource( 1 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( 120, 0, 0, 0, 1, 0, 0, 0, 120, 0, 0, 0 )
+mesh = SubResource( 2 )
+material/0 = ExtResource( 1 )
