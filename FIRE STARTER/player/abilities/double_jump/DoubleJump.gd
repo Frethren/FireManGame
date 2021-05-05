@@ -2,7 +2,7 @@ extends Spatial
 
 var player
 
-var number_of_jumps = 1
+var number_of_jumps = 2
 var jumps_remaining = number_of_jumps
 var can_jump = false # Used with a timer to add a delay before each jumps
 
