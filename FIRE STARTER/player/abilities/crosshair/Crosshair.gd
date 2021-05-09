@@ -36,9 +36,9 @@ func _process(delta):
 			$Position2D/Lines.hide()
 			$Position2D/CenterDot.show()
 	
-	if grab: # If the node Grab is in the scene, hide when grabbing
-		if grab.object_grabbed:
-			$Position2D.hide()
+	#if grab: # If the node Grab is in the scene, hide when grabbing
+		#if grab.object_grabbed:
+			#$Position2D.hide()
 	
 	# Change color to red when pointing on an enemy
 	if is_colliding() and get_collider().is_in_group("Enemy"):

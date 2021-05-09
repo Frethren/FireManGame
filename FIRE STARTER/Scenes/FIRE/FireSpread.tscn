@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://FireSpread.gd" type="Script" id=1]
+
+[sub_resource type="SphereShape" id=1]
+radius = 0.5
+
+[node name="FireSpread" type="Area"]
+script = ExtResource( 1 )
+burning = true
+
+[node name="SpreadTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+shape = SubResource( 1 )
+
+[node name="Position3D" type="Position3D" parent="."]
+
+[connection signal="timeout" from="SpreadTimer" to="." method="_on_Timer_timeout"]
