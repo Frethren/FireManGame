@@ -5,8 +5,14 @@
 [sub_resource type="SphereShape" id=1]
 radius = 0.5
 
-[node name="FireSpread" type="Area"]
+[node name="FireSpread" type="Area" groups=[
+"Fire",
+]]
+collision_layer = 3
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
 burning = true
 
 [node name="SpreadTimer" type="Timer" parent="."]
