@@ -1,0 +1,156 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Reference",
+"class": "BTAlways",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/btnodes/decorators/bt_always.gd"
+}, {
+"base": "Reference",
+"class": "BTComposite",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/btnodes/bt_composite.gd"
+}, {
+"base": "Reference",
+"class": "BTConditional",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/btnodes/decorators/bt_conditional.gd"
+}, {
+"base": "Reference",
+"class": "BTDecorator",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/btnodes/bt_decorator.gd"
+}, {
+"base": "Reference",
+"class": "BTGuard",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/btnodes/decorators/bt_guard.gd"
+}, {
+"base": "Reference",
+"class": "BTLeaf",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/btnodes/bt_leaf.gd"
+}, {
+"base": "Reference",
+"class": "BTNode",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/bt_node.gd"
+}, {
+"base": "Reference",
+"class": "BTParallel",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/btnodes/composites/bt_parallel.gd"
+}, {
+"base": "Reference",
+"class": "BTRandomSelector",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/btnodes/composites/bt_random_selector.gd"
+}, {
+"base": "Reference",
+"class": "BTRandomSequence",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/btnodes/composites/bt_random_sequence.gd"
+}, {
+"base": "Reference",
+"class": "BTRepeat",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/btnodes/decorators/bt_repeat.gd"
+}, {
+"base": "Reference",
+"class": "BTRepeatUntil",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/btnodes/decorators/bt_repeat_until.gd"
+}, {
+"base": "Reference",
+"class": "BTRevert",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/btnodes/decorators/bt_revert.gd"
+}, {
+"base": "Reference",
+"class": "BTSelector",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/btnodes/composites/bt_selector.gd"
+}, {
+"base": "Reference",
+"class": "BTSequence",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/btnodes/composites/bt_sequence.gd"
+}, {
+"base": "Reference",
+"class": "BTWait",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/btnodes/leaves/bt_wait.gd"
+}, {
+"base": "Reference",
+"class": "BehaviorTree",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/behavior_tree.gd"
+}, {
+"base": "Reference",
+"class": "Blackboard",
+"language": "GDScript",
+"path": "res://Behavior Tree/behavior_tree/src/blackboard.gd"
+}, {
+"base": "MeshInstance",
+"class": "CloudDome",
+"language": "GDScript",
+"path": "res://AI Tree/cloud/Cloud.gd"
+}, {
+"base": "Area",
+"class": "Interactable",
+"language": "GDScript",
+"path": "res://player/Interact/Interactable.gd"
+} ]
+_global_script_class_icons={
+"BTAlways": "",
+"BTComposite": "",
+"BTConditional": "",
+"BTDecorator": "",
+"BTGuard": "",
+"BTLeaf": "",
+"BTNode": "",
+"BTParallel": "",
+"BTRandomSelector": "",
+"BTRandomSequence": "",
+"BTRepeat": "",
+"BTRepeatUntil": "",
+"BTRevert": "",
+"BTSelector": "",
+"BTSequence": "",
+"BTWait": "",
+"BehaviorTree": "",
+"Blackboard": "",
+"CloudDome": "",
+"Interactable": ""
+}
+
+[application]
+
+config/name="FIRE STARTER"
+run/main_scene="res://Scenes/Test Levels/Test Level 1.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+Gamestats="*res://Scripts/gamestats.gd"
+
+[input]
+
+Interact={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":70,"unicode":0,"echo":false,"script":null)
+ ]
+}
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+environment/default_environment="res://default_env.tres"

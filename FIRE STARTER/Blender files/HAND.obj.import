@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/HAND.obj-f640b578d0fb1ba1ca8918a9744678bf.mesh"
+
+[deps]
+
+files=[ "res://.import/HAND.obj-f640b578d0fb1ba1ca8918a9744678bf.mesh" ]
+
+source_file="res://Blender files/HAND.obj"
+dest_files=[ "res://.import/HAND.obj-f640b578d0fb1ba1ca8918a9744678bf.mesh", "res://.import/HAND.obj-f640b578d0fb1ba1ca8918a9744678bf.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
