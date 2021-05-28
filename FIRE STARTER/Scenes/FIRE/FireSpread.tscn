@@ -13,7 +13,6 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
 }
-burning = true
 
 [node name="SpreadTimer" type="Timer" parent="."]
 one_shot = true
