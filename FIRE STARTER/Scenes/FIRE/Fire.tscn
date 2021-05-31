@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Particles/1 - VXgkg8o.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/FIRE/Fire.gd" type="Script" id=3]
 
 [sub_resource type="SpatialMaterial" id=1]
 flags_transparent = true
@@ -22,18 +23,18 @@ _data = [ Vector2( 0, 0.245455 ), 0.0, 0.0, 0, 0, Vector2( 0.273256, 0.790909 ),
 colors = PoolColorArray( 0.966125, 1, 0.566406, 1, 1, 0, 0, 1 )
 
 [node name="Fire" type="Spatial"]
+script = ExtResource( 3 )
 
 [node name="CPUParticles" type="CPUParticles" parent="."]
 transform = Transform( 0.5, 0, 0, 0, -0.5, 4.37114e-08, 0, -4.37114e-08, -0.5, 0, 0, 0 )
 material_override = SubResource( 1 )
-amount = 10
+amount = 30
 lifetime = 1.5
 randomness = 1.0
 mesh = SubResource( 2 )
 emission_shape = 1
-emission_sphere_radius = 1.0
+emission_sphere_radius = 0.1
 spread = 5.0
 gravity = Vector3( 0, -10, 0 )
-scale_amount = 3.0
 scale_amount_curve = SubResource( 3 )
 color_ramp = SubResource( 4 )
