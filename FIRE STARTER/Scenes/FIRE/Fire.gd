@@ -11,7 +11,9 @@ func _ready():
 	pass # Replace with function body.
 
 func _process(delta):
-	fire.scale_amount *= 1.01 	
+	if fire.scale_amount < 10:
+		fire.scale_amount *= 1.001
+	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass

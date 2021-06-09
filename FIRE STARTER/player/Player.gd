@@ -22,6 +22,11 @@ var can_jump = false
 
 var can_slide = false
 
+onready var water = preload("res://Scenes/WATERHOSE/Water.tscn")
+
+
+
+
 func _ready():
 	$Head/DirectionIndicator.hide()
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -33,6 +38,16 @@ func _input(event):
 	
 	direction = Vector3()
 	walk()
+
+func water():
+	if Input.is_action_pressed("fire"):
+		var gun = water.instance()
+		get_parent().add_child(gun)
+		
+	
+
+
+
 
 func walk():
 	if not is_crouched:
