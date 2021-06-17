@@ -41,8 +41,11 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0 )
 
 [node name="Camera" type="Camera" parent="Head/Movements"]
 
-[node name="Spatial" parent="Head/Movements/Camera" instance=ExtResource( 4 )]
+[node name="Muzzle" parent="Head/Movements/Camera" instance=ExtResource( 4 )]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.514598, -1.4, -1 )
+
+[node name="Position3D" type="Position3D" parent="Head/Movements/Camera/Muzzle"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.597974, 1.10039, 0 )
 
 [node name="Crosshair" parent="Head/Movements/Camera" instance=ExtResource( 3 )]
 

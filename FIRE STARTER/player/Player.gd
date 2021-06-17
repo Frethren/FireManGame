@@ -21,7 +21,8 @@ var is_zoomed = false
 var can_jump = false
 
 var can_slide = false
-
+onready var watercreate = $Head/Movements/Camera/Muzzle/Position3D
+onready var muzzle = $Head/Movements/Camera/Muzzle
 onready var water = preload("res://Scenes/WATERHOSE/Water.tscn")
 
 
@@ -39,12 +40,11 @@ func _input(event):
 	direction = Vector3()
 	walk()
 
-func water():
+func _process(delta):
 	if Input.is_action_pressed("fire"):
-		var gun = water.instance()
-		get_parent().add_child(gun)
-		
-	
+		var new_water = water.instance()
+		new_water.global_transform = watercreate.global_transform
+		get_tree().get_root().get_node("House").add_child(new_water)
 
 
 
