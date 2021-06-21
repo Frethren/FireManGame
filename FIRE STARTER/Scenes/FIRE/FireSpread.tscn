@@ -7,6 +7,7 @@
 [node name="FireSpread" type="Area" groups=[
 "Fire",
 ]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 0, 0, 0 )
 collision_layer = 3
 script = ExtResource( 1 )
 __meta__ = {
@@ -22,4 +23,5 @@ shape = SubResource( 1 )
 
 [node name="Position3D" type="Position3D" parent="."]
 
+[connection signal="area_entered" from="." to="." method="_on_FireSpread_area_entered"]
 [connection signal="timeout" from="SpreadTimer" to="." method="_on_Timer_timeout"]

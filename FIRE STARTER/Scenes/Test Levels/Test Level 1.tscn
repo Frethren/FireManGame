@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=29 format=2]
 
 [ext_resource path="res://Scenes/Walls/Brick wall 1.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Floors/Wooden Floors/Floor_04.tscn" type="PackedScene" id=2]
@@ -7,8 +7,10 @@
 [ext_resource path="res://Scenes/Walls/Brick Wall window.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Scenes/Walls/WallFloor2_22.tscn" type="PackedScene" id=6]
 [ext_resource path="res://player/Player.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Scenes/FIRE/FireSpread.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Scenes/Stairs/Stairs_03.tscn" type="PackedScene" id=9]
 [ext_resource path="res://Scenes/Test Levels/Test Level 1.gd" type="Script" id=10]
+[ext_resource path="res://Scenes/Doors/TheDoor.tscn" type="PackedScene" id=11]
 
 [sub_resource type="BoxShape" id=1]
 extents = Vector3( 26, 0.5, 20 )
@@ -718,7 +720,7 @@ transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -20.156
 shape = SubResource( 14 )
 
 [node name="Player" parent="." instance=ExtResource( 7 )]
-transform = Transform( 1, 0, 0, 0, 1.69176, 0, 0, 0, 1, 0, 2.5, 6.5 )
+transform = Transform( 1, 0, 0, 0, 1.69176, 0, 0, 0, 1, 0, 2.5, 21.4126 )
 
 [node name="UI" type="Spatial" parent="."]
 
@@ -751,5 +753,43 @@ transform = Transform( -1.79067e-08, 0, 0.409657, 0, 1, 0, -1, 0, -4.37114e-08, 
 
 [node name="Stairs_03" parent="Stairs" instance=ExtResource( 9 )]
 transform = Transform( 7.54979e-08, 0, -2.229, 0, 1, 0, 1, 0, 1.68285e-07, 13.65, 0.05, 12.3 )
+
+[node name="Fire stuff" type="Spatial" parent="."]
+
+[node name="FireSpread" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 3.03895, 2.25908, 2.74531 )
+
+[node name="Doors" type="Spatial" parent="."]
+
+[node name="Door_03" parent="Doors" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.157394, 1.73785, 15.928 )
+contact_monitor = true
+
+[node name="Door_04" parent="Doors" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.34774, 1.70929, 11.2535 )
+
+[node name="Door_05" parent="Doors" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.84774, 1.70929, 11.2535 )
+
+[node name="Door_06" parent="Doors" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.3477, 1.70929, 11.2535 )
+
+[node name="Door_07" parent="Doors" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.9384, 1.7333, 2.35347 )
+
+[node name="Door_08" parent="Doors" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.157394, 6.24222, 15.928 )
+
+[node name="Door_09" parent="Doors" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.34774, 6.23507, 11.2535 )
+
+[node name="Door_10" parent="Doors" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.84774, 6.23507, 11.2535 )
+
+[node name="Door_11" parent="Doors" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.3477, 6.23507, 11.2535 )
+
+[node name="Door_12" parent="Doors" instance=ExtResource( 11 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.9384, 6.23766, 2.35347 )
 
 [editable path="Second floor/Floor_19"]

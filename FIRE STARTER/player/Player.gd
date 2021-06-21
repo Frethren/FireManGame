@@ -45,7 +45,7 @@ func _process(delta):
 		var new_water = water.instance()
 		new_water.global_transform = watercreate.global_transform
 		get_tree().get_root().get_node("House").add_child(new_water)
-
+		new_water.velocity = -new_water.transform.basis.z * new_water.muzzle_velocity
 
 
 

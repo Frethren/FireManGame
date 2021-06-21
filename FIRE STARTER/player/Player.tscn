@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://player/Interaction.gd" type="Script" id=1]
 [ext_resource path="res://player/Player.gd" type="Script" id=2]
@@ -17,10 +17,14 @@ top_radius = 0.05
 bottom_radius = 0.1
 height = 0.5
 
+[sub_resource type="BoxShape" id=4]
+extents = Vector3( 0.21863, 0.367681, 0.230108 )
+
 [node name="Player" type="KinematicBody" groups=[
 "Player",
 ]]
 transform = Transform( 1, 0, 0, 0, 1.69176, 0, 0, 0, 1, 0, 0, 0 )
+collision_mask = 3
 collision/safe_margin = 0.2
 script = ExtResource( 2 )
 
@@ -45,7 +49,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0 )
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.514598, -1.4, -1 )
 
 [node name="Position3D" type="Position3D" parent="Head/Movements/Camera/Muzzle"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.597974, 1.10039, 0 )
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0.597974, 1.10039, 0 )
 
 [node name="Crosshair" parent="Head/Movements/Camera" instance=ExtResource( 3 )]
 
@@ -73,5 +77,9 @@ material/0 = null
 
 [node name="JumpTimer" type="Timer" parent="."]
 one_shot = true
+
+[node name="CollisionShape2" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.0907437 )
+shape = SubResource( 4 )
 
 [connection signal="timeout" from="JumpTimer" to="." method="_on_JumpTimer_timeout"]

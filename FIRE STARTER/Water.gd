@@ -1,6 +1,10 @@
 extends Spatial
 
-var velocity = Vector2(350, 0)
+
+export var muzzle_velocity = 20
+export var g = Vector3.DOWN * 50
+
+var velocity = Vector3.ZERO
 
 
 const KILL_TIMER = 4
@@ -8,17 +12,13 @@ var timer = 0
 
 var hit_something = false
 
-func _ready():
-	$Area.connect("body_entered", self, "collided")
+
 
 
 func _physics_process(delta):
-	var forward_dir = global_transform.basis.x.normalized()
-	global_translate(forward_dir * velocity * delta)
-
-	timer += delta
-	if timer >= KILL_TIMER:
-		queue_free()
+	velocity += g * delta
+	look_at(transform.origin + velocity.normalized(), Vector3.UP)
+	transform.origin += velocity * delta
 
 
 func collided(body):
@@ -30,7 +30,16 @@ func collided(body):
 	queue_free()
 	
 	
-func _process(delta):
-	velocity.y += gravity * delta
-	position += velocity * delta
-	rotation = velocity.angle()
+
+
+
+func _on_Area_area_entered(area):
+	if area.is_in_group("Fire"):
+		if area.burning:
+			area.remove_fire()
+			
+
+
+
+func _on_waterarea_body_entered(body):
+	queue_free()

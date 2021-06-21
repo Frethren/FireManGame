@@ -4,6 +4,7 @@
 [ext_resource path="res://Models/InteriorPack_01.material" type="Material" id=2]
 
 [node name="Door_01" instance=ExtResource( 1 )]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0 )
 
 [node name="Door_02" parent="." index="0"]
 material/0 = ExtResource( 2 )
