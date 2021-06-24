@@ -17,8 +17,9 @@ top_radius = 0.05
 bottom_radius = 0.1
 height = 0.5
 
-[sub_resource type="BoxShape" id=4]
-extents = Vector3( 0.21863, 0.367681, 0.230108 )
+[sub_resource type="Animation" id=4]
+resource_name = "Kick"
+length = 0.4
 
 [node name="Player" type="KinematicBody" groups=[
 "Player",
@@ -37,6 +38,12 @@ transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 0, 0, 0
 cast_shadow = 0
 mesh = SubResource( 2 )
 material/0 = null
+
+[node name="KickRay" type="RayCast" parent="."]
+transform = Transform( 1, 6.68001e-09, 0, 6.60608e-09, 1, 0, 0, 3.26435e-08, 1, 0, 0.295553, -1.5 )
+enabled = true
+cast_to = Vector3( 0, 0, -1.4 )
+collision_mask = 2
 
 [node name="Head" type="Position3D" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0 )
@@ -78,8 +85,7 @@ material/0 = null
 [node name="JumpTimer" type="Timer" parent="."]
 one_shot = true
 
-[node name="CollisionShape2" type="CollisionShape" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.0907437 )
-shape = SubResource( 4 )
+[node name="AnimateKick" type="AnimationPlayer" parent="."]
+anims/Kick = SubResource( 4 )
 
 [connection signal="timeout" from="JumpTimer" to="." method="_on_JumpTimer_timeout"]

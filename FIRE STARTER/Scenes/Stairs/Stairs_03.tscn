@@ -26,4 +26,4 @@ material/0 = ExtResource( 2 )
 
 [node name="CollisionPolygon" type="CollisionPolygon" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1.95, 0, 0, 0 )
-polygon = PoolVector2Array( -5.65, 4.5, -5.3, 4.45, 0, 0.35, -0.0218707, 0.054676, -5.66443, 0.0328058 )
+polygon = PoolVector2Array( -5.65, 4.5, -5.3, 4.45, -0.0639934, 0.154604, -0.0218707, 0.054676, -5.66443, 0.0328058 )

@@ -24,6 +24,8 @@ var can_slide = false
 onready var watercreate = $Head/Movements/Camera/Muzzle/Position3D
 onready var muzzle = $Head/Movements/Camera/Muzzle
 onready var water = preload("res://Scenes/WATERHOSE/Water.tscn")
+onready var camera = $Head/Movements/Camera
+onready var kickray = $KickRay
 
 
 
@@ -125,6 +127,31 @@ func _physics_process(delta):
 			crouching_animation(!is_crouched)
 			if is_crouched:
 				speed_multiplier = 0.5
+				
+	if Input.is_action_just_pressed("Kick"):
+		#rotation_degrees.y -= event.relative.x * mouse_sensitivity / 10
+			#get global transform of camera
+		var a = to_global(kickray.translation)
+		var b = kickray.get_collision_point()
+		var look_vec = b-a
+		look_vec = look_vec.normalized()
+		
+		print(a, b, b-a,look_vec)
+		look_vec = look_vec
+			#get global transform of kickray
+			#find vector from camera to ray cast to
+		var door = kickray.get_collider() 
+		
+		if door and door.is_in_group("Door"):
+			print("Kicking")
+			door.apply_impulse(door.to_local(b),look_vec * delta * 5)
+#		$AnimateKick.play("Kick")
+#		yield($AnimateKick, "animation_finished")
+		#get door collider(via ray)
+		#get forward vector of camera
+		#apply central impulse to door
+		
+
 		
 	velocity = velocity.linear_interpolate(direction * speed, acceleration * delta)
 	movement.z = velocity.z + gravity_vec.z
