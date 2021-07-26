@@ -8,8 +8,10 @@ export(bool) var burning = false
 onready var fire = $CPUParticles # Replace with function body.
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	$AnimationPlayer.play("FireSpread")
+	print($AnimationPlayer.current_animation)
 
-func _process(delta):
-	if burning:
-		$AnimationPlayer.play("FireSpread")
+
+
+func _on_AnimationPlayer_animation_changed(old_name, new_name):
+	print("work")

@@ -17,7 +17,7 @@ albedo_texture = ExtResource( 1 )
 [sub_resource type="QuadMesh" id=2]
 
 [sub_resource type="Curve" id=3]
-_data = [ Vector2( 0, 0.217045 ), 0.0, 0.0, 0, 0, Vector2( 0.325581, 0.8625 ), 0.0, 0.0, 0, 0, Vector2( 1, 0 ), 0.0, 0.0, 0, 0 ]
+_data = [ Vector2( 0, 0.217045 ), 0.0, 0.0, 0, 0, Vector2( 0.284884, 1 ), 0.0, 0.0, 0, 0, Vector2( 1, 0 ), 0.0, 0.0, 0, 0 ]
 
 [sub_resource type="Gradient" id=4]
 colors = PoolColorArray( 0.966125, 1, 0.566406, 1, 1, 0, 0, 1 )
@@ -57,6 +57,7 @@ tracks/2/keys = {
 }
 
 [node name="Fire" type="Spatial"]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0 )
 script = ExtResource( 3 )
 
 [node name="CPUParticles" type="CPUParticles" parent="."]
@@ -69,11 +70,15 @@ draw_order = 2
 mesh = SubResource( 2 )
 emission_shape = 2
 emission_box_extents = Vector3( 0, 1, 1 )
-spread = 5.0
+spread = 60.0
 gravity = Vector3( 0, -2, 0 )
-scale_amount = 0.5
+scale_amount = 3.0
 scale_amount_curve = SubResource( 3 )
 color_ramp = SubResource( 4 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "FireSpread"
+playback_speed = 4.0
 anims/FireSpread = SubResource( 5 )
+
+[connection signal="animation_changed" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_changed"]
