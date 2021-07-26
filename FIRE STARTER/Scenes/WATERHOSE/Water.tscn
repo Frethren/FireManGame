@@ -10,8 +10,8 @@ flags_unshaded = true
 albedo_color = Color( 0, 0.0392157, 1, 0.498039 )
 
 [sub_resource type="CylinderShape" id=3]
-radius = 0.526571
-height = 0.868344
+radius = 0.0262713
+height = 0.431343
 
 [node name="Water" type="Spatial"]
 script = ExtResource( 1 )

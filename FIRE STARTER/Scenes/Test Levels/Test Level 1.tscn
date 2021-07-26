@@ -757,7 +757,1207 @@ transform = Transform( 7.54979e-08, 0, -2.229, 0, 1, 0, 1, 0, 1.68285e-07, 13.65
 [node name="Fire stuff" type="Spatial" parent="."]
 
 [node name="FireSpread" parent="Fire stuff" instance=ExtResource( 8 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 3.03895, 2.25908, 2.74531 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 6.83895, 2.90908, 2.49531 )
+
+[node name="FireSpread2" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 4.88895, 2.90908, 2.49531 )
+
+[node name="FireSpread3" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 6.83895, 1.3299, 2.49531 )
+
+[node name="FireSpread4" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 4.88895, 1.3299, 2.49531 )
+
+[node name="FireSpread5" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 10.7551, 2.90908, 2.49531 )
+
+[node name="FireSpread6" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 8.80513, 2.90908, 2.49531 )
+
+[node name="FireSpread7" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 10.7551, 1.3299, 2.49531 )
+
+[node name="FireSpread8" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 8.80513, 1.3299, 2.506 )
+
+[node name="FireSpread9" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 14.6551, 2.90908, 2.49531 )
+
+[node name="FireSpread10" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 12.7051, 2.90908, 2.49531 )
+
+[node name="FireSpread11" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 14.6551, 1.3299, 2.49531 )
+
+[node name="FireSpread12" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 12.7051, 1.3299, 2.49531 )
+
+[node name="FireSpread13" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 6.83895, 6.43142, 2.49531 )
+
+[node name="FireSpread14" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 4.88895, 6.43142, 2.49531 )
+
+[node name="FireSpread15" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 6.83895, 4.85224, 2.49531 )
+
+[node name="FireSpread16" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 4.88895, 4.85224, 2.49531 )
+
+[node name="FireSpread17" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 10.7551, 6.43142, 2.49531 )
+
+[node name="FireSpread18" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 8.80513, 6.43142, 2.49531 )
+
+[node name="FireSpread19" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 10.7551, 4.85224, 2.49531 )
+
+[node name="FireSpread20" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 8.80513, 4.85224, 2.49531 )
+
+[node name="FireSpread21" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 14.6551, 6.43142, 2.49531 )
+
+[node name="FireSpread22" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 12.7051, 6.43142, 2.49531 )
+
+[node name="FireSpread23" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 14.6551, 4.85224, 2.49531 )
+
+[node name="FireSpread24" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 12.7051, 4.85224, 2.49531 )
+
+[node name="FireSpread27" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 6.83895, 8.35224, 2.49531 )
+
+[node name="FireSpread28" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 4.88895, 8.35224, 2.49531 )
+
+[node name="FireSpread31" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 10.7551, 8.35224, 2.49531 )
+
+[node name="FireSpread32" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 8.80513, 8.35224, 2.49531 )
+
+[node name="FireSpread35" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 14.6551, 8.35224, 2.49531 )
+
+[node name="FireSpread36" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 12.7051, 8.35224, 2.49531 )
+
+[node name="FireSpread25" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -4.86105, 2.90908, 2.49531 )
+
+[node name="FireSpread26" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -6.81105, 2.90908, 2.49531 )
+
+[node name="FireSpread29" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -4.86105, 1.3299, 2.49531 )
+
+[node name="FireSpread30" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -6.81105, 1.3299, 2.49531 )
+
+[node name="FireSpread33" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -0.944865, 2.90908, 2.49531 )
+
+[node name="FireSpread34" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -2.89487, 2.90908, 2.49531 )
+
+[node name="FireSpread37" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -0.944865, 1.3299, 2.49531 )
+
+[node name="FireSpread38" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -2.89487, 1.3299, 2.49531 )
+
+[node name="FireSpread39" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 2.95514, 2.90908, 2.49531 )
+
+[node name="FireSpread40" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 1.00513, 2.90908, 2.49531 )
+
+[node name="FireSpread41" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 2.95514, 1.3299, 2.49531 )
+
+[node name="FireSpread42" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 1.00513, 1.3299, 2.49531 )
+
+[node name="FireSpread43" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -4.86105, 6.43142, 2.49531 )
+
+[node name="FireSpread44" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -6.81105, 6.43142, 2.49531 )
+
+[node name="FireSpread45" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -4.86105, 4.85224, 2.49531 )
+
+[node name="FireSpread46" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -6.81105, 4.85224, 2.49531 )
+
+[node name="FireSpread47" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -0.944865, 6.43142, 2.49531 )
+
+[node name="FireSpread48" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -2.89487, 6.43142, 2.49531 )
+
+[node name="FireSpread49" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -0.944865, 4.85224, 2.49531 )
+
+[node name="FireSpread50" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -2.89487, 4.85224, 2.49531 )
+
+[node name="FireSpread51" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 2.95514, 6.43142, 2.49531 )
+
+[node name="FireSpread52" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 1.00513, 6.43142, 2.49531 )
+
+[node name="FireSpread53" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 2.95514, 4.85224, 2.49531 )
+
+[node name="FireSpread54" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 1.00513, 4.85224, 2.49531 )
+
+[node name="FireSpread55" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -4.86105, 8.35224, 2.49531 )
+
+[node name="FireSpread56" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -6.81105, 8.35224, 2.49531 )
+
+[node name="FireSpread57" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -0.944865, 8.35224, 2.49531 )
+
+[node name="FireSpread58" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -2.89487, 8.35224, 2.49531 )
+
+[node name="FireSpread59" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 2.95514, 8.35224, 2.49531 )
+
+[node name="FireSpread60" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, 1.00513, 8.35224, 2.49531 )
+
+[node name="FireSpread61" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -16.5111, 2.90908, 2.49531 )
+
+[node name="FireSpread62" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -18.4611, 2.90908, 2.49531 )
+
+[node name="FireSpread63" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -16.5111, 1.3299, 2.49531 )
+
+[node name="FireSpread64" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -18.4611, 1.3299, 2.49531 )
+
+[node name="FireSpread65" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -12.5949, 2.90908, 2.49531 )
+
+[node name="FireSpread66" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -14.5449, 2.90908, 2.49531 )
+
+[node name="FireSpread67" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -12.5949, 1.3299, 2.49531 )
+
+[node name="FireSpread68" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -14.5449, 1.3299, 2.49531 )
+
+[node name="FireSpread69" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -8.69487, 2.90908, 2.49531 )
+
+[node name="FireSpread70" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -10.6449, 2.90908, 2.49531 )
+
+[node name="FireSpread71" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -8.69487, 1.3299, 2.49531 )
+
+[node name="FireSpread72" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -10.6449, 1.3299, 2.49531 )
+
+[node name="FireSpread73" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -16.5111, 6.43142, 2.49531 )
+
+[node name="FireSpread74" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -18.4611, 6.43142, 2.49531 )
+
+[node name="FireSpread75" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -16.5111, 4.85224, 2.49531 )
+
+[node name="FireSpread76" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -18.4611, 4.85224, 2.49531 )
+
+[node name="FireSpread77" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -12.5949, 6.43142, 2.49531 )
+
+[node name="FireSpread78" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -14.5449, 6.43142, 2.49531 )
+
+[node name="FireSpread79" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -12.5949, 4.85224, 2.49531 )
+
+[node name="FireSpread80" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -14.5449, 4.85224, 2.49531 )
+
+[node name="FireSpread81" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -8.69487, 6.43142, 2.49531 )
+
+[node name="FireSpread82" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -10.6449, 6.43142, 2.49531 )
+
+[node name="FireSpread83" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -8.69487, 4.85224, 2.49531 )
+
+[node name="FireSpread84" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -10.6449, 4.85224, 2.49531 )
+
+[node name="FireSpread85" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -16.5111, 8.35224, 2.49531 )
+
+[node name="FireSpread86" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -18.4611, 8.35224, 2.49531 )
+
+[node name="FireSpread87" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -12.5949, 8.35224, 2.49531 )
+
+[node name="FireSpread88" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -14.5449, 8.35224, 2.49531 )
+
+[node name="FireSpread89" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -8.69487, 8.35224, 2.49531 )
+
+[node name="FireSpread90" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.167094, -10.6449, 8.35224, 2.49531 )
+
+[node name="FireSpread91" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 2.90908, 5.36222 )
+
+[node name="FireSpread92" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 2.90908, 3.41222 )
+
+[node name="FireSpread93" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 1.3299, 5.36222 )
+
+[node name="FireSpread94" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 1.3299, 3.41222 )
+
+[node name="FireSpread95" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 2.90908, 9.2784 )
+
+[node name="FireSpread96" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 2.90908, 7.3284 )
+
+[node name="FireSpread97" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 1.3299, 9.2784 )
+
+[node name="FireSpread98" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 1.3299, 7.3284 )
+
+[node name="FireSpread99" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 2.90908, 13.1784 )
+
+[node name="FireSpread100" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 2.90908, 11.2284 )
+
+[node name="FireSpread101" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 1.3299, 13.1784 )
+
+[node name="FireSpread102" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 1.3299, 11.2284 )
+
+[node name="FireSpread103" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 6.43142, 5.36222 )
+
+[node name="FireSpread104" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 6.43142, 3.41222 )
+
+[node name="FireSpread105" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 4.85224, 5.36222 )
+
+[node name="FireSpread106" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 4.85224, 3.41222 )
+
+[node name="FireSpread107" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 6.43142, 9.2784 )
+
+[node name="FireSpread108" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 6.43142, 7.3284 )
+
+[node name="FireSpread109" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 4.85224, 9.2784 )
+
+[node name="FireSpread110" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 4.85224, 7.3284 )
+
+[node name="FireSpread111" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 6.43142, 13.1784 )
+
+[node name="FireSpread112" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 6.43142, 11.2284 )
+
+[node name="FireSpread113" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 4.85224, 13.1784 )
+
+[node name="FireSpread114" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 4.85224, 11.2284 )
+
+[node name="FireSpread115" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 8.35224, 5.36222 )
+
+[node name="FireSpread116" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 8.35224, 3.41222 )
+
+[node name="FireSpread117" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 8.35224, 9.2784 )
+
+[node name="FireSpread118" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 8.35224, 7.3284 )
+
+[node name="FireSpread119" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 8.35224, 13.1784 )
+
+[node name="FireSpread120" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 8.35224, 11.2284 )
+
+[node name="FireSpread121" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 2.90908, 17.0622 )
+
+[node name="FireSpread122" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 2.90908, 15.1122 )
+
+[node name="FireSpread123" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 1.3299, 17.0622 )
+
+[node name="FireSpread124" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 1.3299, 15.1122 )
+
+[node name="FireSpread125" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 2.90908, 20.9784 )
+
+[node name="FireSpread126" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 2.90908, 19.0284 )
+
+[node name="FireSpread127" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 1.3299, 20.9784 )
+
+[node name="FireSpread128" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 1.3299, 19.0284 )
+
+[node name="FireSpread129" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 2.90908, 24.8784 )
+
+[node name="FireSpread130" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 2.90908, 22.9284 )
+
+[node name="FireSpread131" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 1.3299, 24.8784 )
+
+[node name="FireSpread132" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 1.3299, 22.9284 )
+
+[node name="FireSpread133" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 6.43142, 17.0622 )
+
+[node name="FireSpread134" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 6.43142, 15.1122 )
+
+[node name="FireSpread135" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 4.85224, 17.0622 )
+
+[node name="FireSpread136" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 4.85224, 15.1122 )
+
+[node name="FireSpread137" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 6.43142, 20.9784 )
+
+[node name="FireSpread138" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 6.43142, 19.0284 )
+
+[node name="FireSpread139" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 4.85224, 20.9784 )
+
+[node name="FireSpread140" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 4.85224, 19.0284 )
+
+[node name="FireSpread141" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 6.43142, 24.8784 )
+
+[node name="FireSpread142" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 6.43142, 22.9284 )
+
+[node name="FireSpread143" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 4.85224, 24.8784 )
+
+[node name="FireSpread144" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 4.85224, 22.9284 )
+
+[node name="FireSpread145" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 8.35224, 17.0622 )
+
+[node name="FireSpread146" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 8.35224, 15.1122 )
+
+[node name="FireSpread147" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 8.35224, 20.9784 )
+
+[node name="FireSpread148" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 8.35224, 19.0284 )
+
+[node name="FireSpread149" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 8.35224, 24.8784 )
+
+[node name="FireSpread150" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -4.37114e-08, 0, -0.167094, 0, 1, 0, 1, 0, -7.30391e-09, -19.978, 8.35224, 22.9284 )
+
+[node name="FireSpread151" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -11.5449, 2.90908, 24.5453 )
+
+[node name="FireSpread153" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -11.5449, 1.3299, 24.5453 )
+
+[node name="FireSpread155" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -15.461, 2.90908, 24.5453 )
+
+[node name="FireSpread156" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -13.511, 2.90908, 24.5453 )
+
+[node name="FireSpread157" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -15.461, 1.3299, 24.5453 )
+
+[node name="FireSpread158" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -13.511, 1.3299, 24.5453 )
+
+[node name="FireSpread159" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -19.361, 2.90908, 24.5453 )
+
+[node name="FireSpread160" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -17.411, 2.90908, 24.5453 )
+
+[node name="FireSpread161" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -19.361, 1.3299, 24.5453 )
+
+[node name="FireSpread162" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -17.411, 1.3299, 24.5453 )
+
+[node name="FireSpread163" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -11.5449, 6.43142, 24.5453 )
+
+[node name="FireSpread165" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -11.5449, 4.85224, 24.5453 )
+
+[node name="FireSpread167" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -15.461, 6.43142, 24.5453 )
+
+[node name="FireSpread168" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -13.511, 6.43142, 24.5453 )
+
+[node name="FireSpread169" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -15.461, 4.85224, 24.5453 )
+
+[node name="FireSpread170" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -13.511, 4.85224, 24.5453 )
+
+[node name="FireSpread171" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -19.361, 6.43142, 24.5453 )
+
+[node name="FireSpread172" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -17.411, 6.43142, 24.5453 )
+
+[node name="FireSpread173" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -19.361, 4.85224, 24.5453 )
+
+[node name="FireSpread174" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -17.411, 4.85224, 24.5453 )
+
+[node name="FireSpread175" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -11.5449, 8.35224, 24.5453 )
+
+[node name="FireSpread177" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -15.461, 8.35224, 24.5453 )
+
+[node name="FireSpread178" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -13.511, 8.35224, 24.5453 )
+
+[node name="FireSpread179" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -19.361, 8.35224, 24.5453 )
+
+[node name="FireSpread180" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( -1, 0, 1.46078e-08, 0, 1, 0, -8.74228e-08, 0, -0.167094, -17.411, 8.35224, 24.5453 )
+
+[node name="FireSpread152" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 2.90908, 23.6034 )
+
+[node name="FireSpread154" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 1.3299, 23.6034 )
+
+[node name="FireSpread164" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 2.90908, 19.6872 )
+
+[node name="FireSpread166" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 2.90908, 21.6372 )
+
+[node name="FireSpread176" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 1.3299, 19.6872 )
+
+[node name="FireSpread181" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 1.3299, 21.6372 )
+
+[node name="FireSpread182" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 2.90908, 15.7872 )
+
+[node name="FireSpread183" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 2.90908, 17.7372 )
+
+[node name="FireSpread184" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 1.3299, 15.7872 )
+
+[node name="FireSpread185" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 1.3299, 17.7372 )
+
+[node name="FireSpread186" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 6.43142, 23.6034 )
+
+[node name="FireSpread187" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 4.85224, 23.6034 )
+
+[node name="FireSpread188" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 6.43142, 19.6872 )
+
+[node name="FireSpread189" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 6.43142, 21.6372 )
+
+[node name="FireSpread190" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 4.85224, 19.6872 )
+
+[node name="FireSpread191" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 4.85224, 21.6372 )
+
+[node name="FireSpread192" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 6.43142, 15.7872 )
+
+[node name="FireSpread193" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 6.43142, 17.7372 )
+
+[node name="FireSpread194" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 4.85224, 15.7872 )
+
+[node name="FireSpread195" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 4.85224, 17.7372 )
+
+[node name="FireSpread196" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 8.35224, 23.6034 )
+
+[node name="FireSpread197" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 8.35224, 19.6872 )
+
+[node name="FireSpread198" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 8.35224, 21.6372 )
+
+[node name="FireSpread199" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 8.35224, 15.7872 )
+
+[node name="FireSpread200" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -11.303, 8.35224, 17.7372 )
+
+[node name="FireSpread201" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -10.4611, 2.90908, 15.6953 )
+
+[node name="FireSpread202" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -10.4611, 1.3299, 15.6953 )
+
+[node name="FireSpread203" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -6.54487, 2.90908, 15.6953 )
+
+[node name="FireSpread204" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -8.49487, 2.90908, 15.6953 )
+
+[node name="FireSpread205" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -6.54487, 1.3299, 15.6953 )
+
+[node name="FireSpread206" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -8.49487, 1.3299, 15.6953 )
+
+[node name="FireSpread207" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -2.64486, 2.90908, 15.6953 )
+
+[node name="FireSpread208" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -4.59486, 2.90908, 15.6953 )
+
+[node name="FireSpread209" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -2.64486, 1.3299, 15.6953 )
+
+[node name="FireSpread210" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -4.59486, 1.3299, 15.6953 )
+
+[node name="FireSpread211" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -10.4611, 6.43142, 15.6953 )
+
+[node name="FireSpread212" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -10.4611, 4.85224, 15.6953 )
+
+[node name="FireSpread213" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -6.54487, 6.43142, 15.6953 )
+
+[node name="FireSpread214" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -8.49487, 6.43142, 15.6953 )
+
+[node name="FireSpread215" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -6.54487, 4.85224, 15.6953 )
+
+[node name="FireSpread216" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -8.49487, 4.85224, 15.6953 )
+
+[node name="FireSpread217" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -2.64486, 6.43142, 15.6953 )
+
+[node name="FireSpread218" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -4.59486, 6.43142, 15.6953 )
+
+[node name="FireSpread219" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -2.64486, 4.85224, 15.6953 )
+
+[node name="FireSpread220" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -4.59486, 4.85224, 15.6953 )
+
+[node name="FireSpread221" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -10.4611, 8.35224, 15.6953 )
+
+[node name="FireSpread222" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -6.54487, 8.35224, 15.6953 )
+
+[node name="FireSpread223" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -8.49487, 8.35224, 15.6953 )
+
+[node name="FireSpread224" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -2.64486, 8.35224, 15.6953 )
+
+[node name="FireSpread225" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -4.59486, 8.35224, 15.6953 )
+
+[node name="FireSpread226" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -0.861051, 2.90908, 15.6953 )
+
+[node name="FireSpread227" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -0.861051, 1.3299, 15.6953 )
+
+[node name="FireSpread228" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 3.05513, 2.90908, 15.6953 )
+
+[node name="FireSpread229" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 1.10513, 2.90908, 15.6953 )
+
+[node name="FireSpread230" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 3.05513, 1.3299, 15.6953 )
+
+[node name="FireSpread231" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 1.10513, 1.3299, 15.6953 )
+
+[node name="FireSpread232" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 6.95514, 2.90908, 15.6953 )
+
+[node name="FireSpread233" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 5.00514, 2.90908, 15.6953 )
+
+[node name="FireSpread234" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 6.95514, 1.3299, 15.6953 )
+
+[node name="FireSpread235" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 5.00514, 1.3299, 15.6953 )
+
+[node name="FireSpread236" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -0.861051, 6.43142, 15.6953 )
+
+[node name="FireSpread237" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -0.861051, 4.85224, 15.6953 )
+
+[node name="FireSpread238" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 3.05513, 6.43142, 15.6953 )
+
+[node name="FireSpread239" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 1.10513, 6.43142, 15.6953 )
+
+[node name="FireSpread240" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 3.05513, 4.85224, 15.6953 )
+
+[node name="FireSpread241" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 1.10513, 4.85224, 15.6953 )
+
+[node name="FireSpread242" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 6.95514, 6.43142, 15.6953 )
+
+[node name="FireSpread243" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 5.00514, 6.43142, 15.6953 )
+
+[node name="FireSpread244" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 6.95514, 4.85224, 15.6953 )
+
+[node name="FireSpread245" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 5.00514, 4.85224, 15.6953 )
+
+[node name="FireSpread246" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, -0.861051, 8.35224, 15.6953 )
+
+[node name="FireSpread247" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 3.05513, 8.35224, 15.6953 )
+
+[node name="FireSpread248" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 1.10513, 8.35224, 15.6953 )
+
+[node name="FireSpread249" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 6.95514, 8.35224, 15.6953 )
+
+[node name="FireSpread250" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 5.00514, 8.35224, 15.6953 )
+
+[node name="FireSpread251" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 8.88895, 2.90908, 15.6953 )
+
+[node name="FireSpread252" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 8.88895, 1.3299, 15.6953 )
+
+[node name="FireSpread253" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 12.8051, 2.90908, 15.6953 )
+
+[node name="FireSpread254" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 10.8551, 2.90908, 15.6953 )
+
+[node name="FireSpread255" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 12.8051, 1.3299, 15.6953 )
+
+[node name="FireSpread256" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 10.8551, 1.3299, 15.6953 )
+
+[node name="FireSpread258" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 14.7551, 2.90908, 15.6953 )
+
+[node name="FireSpread260" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 14.7551, 1.3299, 15.6953 )
+
+[node name="FireSpread261" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 8.88895, 6.43142, 15.6953 )
+
+[node name="FireSpread262" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 8.88895, 4.85224, 15.6953 )
+
+[node name="FireSpread263" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 12.8051, 6.43142, 15.6953 )
+
+[node name="FireSpread264" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 10.8551, 6.43142, 15.6953 )
+
+[node name="FireSpread265" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 12.8051, 4.85224, 15.6953 )
+
+[node name="FireSpread266" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 10.8551, 4.85224, 15.6953 )
+
+[node name="FireSpread268" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 14.7551, 6.43142, 15.6953 )
+
+[node name="FireSpread270" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 14.7551, 4.85224, 15.6953 )
+
+[node name="FireSpread271" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 8.88895, 8.35224, 15.6953 )
+
+[node name="FireSpread272" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 12.8051, 8.35224, 15.6953 )
+
+[node name="FireSpread273" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 10.8551, 8.35224, 15.6953 )
+
+[node name="FireSpread275" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1, 0, -2.92156e-08, 0, 1, 0, 1.74846e-07, 0, 0.167094, 14.7551, 8.35224, 15.6953 )
+
+[node name="FireSpread276" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 2.90908, 14.8534 )
+
+[node name="FireSpread277" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 1.3299, 14.8534 )
+
+[node name="FireSpread278" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 2.90908, 10.9372 )
+
+[node name="FireSpread279" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 2.90908, 12.8872 )
+
+[node name="FireSpread280" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 1.3299, 10.9372 )
+
+[node name="FireSpread281" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 1.3299, 12.8872 )
+
+[node name="FireSpread282" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 2.90908, 7.03722 )
+
+[node name="FireSpread283" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 2.90908, 8.98722 )
+
+[node name="FireSpread284" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 1.3299, 7.03722 )
+
+[node name="FireSpread285" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 1.3299, 8.98722 )
+
+[node name="FireSpread286" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 6.43142, 14.8534 )
+
+[node name="FireSpread287" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 4.85224, 14.8534 )
+
+[node name="FireSpread288" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 6.43142, 10.9372 )
+
+[node name="FireSpread289" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 6.43142, 12.8872 )
+
+[node name="FireSpread290" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 4.85224, 10.9372 )
+
+[node name="FireSpread291" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 4.85224, 12.8872 )
+
+[node name="FireSpread292" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 6.43142, 7.03722 )
+
+[node name="FireSpread293" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 6.43142, 8.98722 )
+
+[node name="FireSpread294" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 4.85224, 7.03722 )
+
+[node name="FireSpread295" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 4.85224, 8.98722 )
+
+[node name="FireSpread296" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 8.35224, 14.8534 )
+
+[node name="FireSpread297" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 8.35224, 10.9372 )
+
+[node name="FireSpread298" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 8.35224, 12.8872 )
+
+[node name="FireSpread299" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 8.35224, 7.03722 )
+
+[node name="FireSpread300" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 8.35224, 8.98722 )
+
+[node name="FireSpread301" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 2.90908, 5.10341 )
+
+[node name="FireSpread302" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 1.3299, 5.10341 )
+
+[node name="FireSpread304" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 2.90908, 3.13722 )
+
+[node name="FireSpread306" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 1.3299, 3.13722 )
+
+[node name="FireSpread311" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 6.43142, 5.10341 )
+
+[node name="FireSpread312" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 4.85224, 5.10341 )
+
+[node name="FireSpread314" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 6.43142, 3.13722 )
+
+[node name="FireSpread316" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 4.85224, 3.13722 )
+
+[node name="FireSpread321" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 8.35224, 5.10341 )
+
+[node name="FireSpread323" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, 15.597, 8.35224, 3.13722 )
+
+[node name="FireSpread303" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20296, 2.90908, 10.9372 )
+
+[node name="FireSpread305" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20296, 1.3299, 10.9372 )
+
+[node name="FireSpread307" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20295, 2.90908, 7.03722 )
+
+[node name="FireSpread308" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20295, 2.90908, 8.98722 )
+
+[node name="FireSpread309" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20295, 1.3299, 7.03722 )
+
+[node name="FireSpread310" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20295, 1.3299, 8.98722 )
+
+[node name="FireSpread313" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20296, 6.43142, 10.9372 )
+
+[node name="FireSpread315" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20296, 4.85224, 10.9372 )
+
+[node name="FireSpread317" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20295, 6.43142, 7.03722 )
+
+[node name="FireSpread318" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20295, 6.43142, 8.98722 )
+
+[node name="FireSpread319" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20295, 4.85224, 8.98722 )
+
+[node name="FireSpread320" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20296, 8.35224, 10.9372 )
+
+[node name="FireSpread322" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20295, 8.35224, 7.03722 )
+
+[node name="FireSpread324" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20295, 8.35224, 8.98722 )
+
+[node name="FireSpread325" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20296, 2.90908, 5.10341 )
+
+[node name="FireSpread326" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20296, 1.3299, 5.10341 )
+
+[node name="FireSpread327" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20296, 2.90908, 3.13722 )
+
+[node name="FireSpread328" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20296, 1.3299, 3.13722 )
+
+[node name="FireSpread329" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20296, 6.43142, 5.10341 )
+
+[node name="FireSpread330" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20296, 4.85224, 5.10341 )
+
+[node name="FireSpread331" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20296, 6.43142, 3.13722 )
+
+[node name="FireSpread332" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20296, 4.85224, 3.13722 )
+
+[node name="FireSpread333" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20296, 8.35224, 5.10341 )
+
+[node name="FireSpread334" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -2.20296, 8.35224, 3.13722 )
+
+[node name="FireSpread335" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70296, 2.90908, 10.9372 )
+
+[node name="FireSpread336" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70296, 1.3299, 10.9372 )
+
+[node name="FireSpread337" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70295, 2.90908, 7.03722 )
+
+[node name="FireSpread338" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70295, 2.90908, 8.98722 )
+
+[node name="FireSpread339" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70295, 1.3299, 7.03722 )
+
+[node name="FireSpread340" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70295, 1.3299, 8.98722 )
+
+[node name="FireSpread341" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70296, 6.43142, 10.9372 )
+
+[node name="FireSpread342" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70296, 4.85224, 10.9372 )
+
+[node name="FireSpread343" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70295, 6.43142, 7.03722 )
+
+[node name="FireSpread344" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70295, 6.43142, 8.98722 )
+
+[node name="FireSpread345" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70295, 4.85224, 8.98722 )
+
+[node name="FireSpread346" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70296, 8.35224, 10.9372 )
+
+[node name="FireSpread347" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70295, 8.35224, 7.03722 )
+
+[node name="FireSpread348" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70295, 8.35224, 8.98722 )
+
+[node name="FireSpread349" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70296, 2.90908, 5.10341 )
+
+[node name="FireSpread350" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70296, 1.3299, 5.10341 )
+
+[node name="FireSpread351" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70296, 2.90908, 3.13722 )
+
+[node name="FireSpread352" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70296, 1.3299, 3.13722 )
+
+[node name="FireSpread353" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70296, 6.43142, 5.10341 )
+
+[node name="FireSpread354" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70296, 4.85224, 5.10341 )
+
+[node name="FireSpread355" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70296, 6.43142, 3.13722 )
+
+[node name="FireSpread356" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70296, 4.85224, 3.13722 )
+
+[node name="FireSpread357" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70296, 8.35224, 5.10341 )
+
+[node name="FireSpread358" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -6.70296, 8.35224, 3.13722 )
+
+[node name="FireSpread359" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 2.90908, 10.9372 )
+
+[node name="FireSpread360" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 1.3299, 10.9372 )
+
+[node name="FireSpread361" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 2.90908, 7.03722 )
+
+[node name="FireSpread362" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 2.90908, 8.98722 )
+
+[node name="FireSpread363" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 1.3299, 7.03722 )
+
+[node name="FireSpread364" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 1.3299, 8.98722 )
+
+[node name="FireSpread365" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 6.43142, 10.9372 )
+
+[node name="FireSpread366" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 4.85224, 10.9372 )
+
+[node name="FireSpread367" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 6.43142, 7.03722 )
+
+[node name="FireSpread368" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 6.43142, 8.98722 )
+
+[node name="FireSpread369" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 4.85224, 8.98722 )
+
+[node name="FireSpread370" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 8.35224, 10.9372 )
+
+[node name="FireSpread371" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 8.35224, 7.03722 )
+
+[node name="FireSpread372" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 8.35224, 8.98722 )
+
+[node name="FireSpread373" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 2.90908, 5.10341 )
+
+[node name="FireSpread374" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 1.3299, 5.10341 )
+
+[node name="FireSpread375" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 2.90908, 3.13722 )
+
+[node name="FireSpread376" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 1.3299, 3.13722 )
+
+[node name="FireSpread377" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 6.43142, 5.10341 )
+
+[node name="FireSpread378" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 4.85224, 5.10341 )
+
+[node name="FireSpread379" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 6.43142, 3.13722 )
+
+[node name="FireSpread380" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 4.85224, 3.13722 )
+
+[node name="FireSpread381" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 8.35224, 5.10341 )
+
+[node name="FireSpread382" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -10.703, 8.35224, 3.13722 )
+
+[node name="FireSpread383" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 2.90908, 10.9372 )
+
+[node name="FireSpread384" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 1.3299, 10.9372 )
+
+[node name="FireSpread385" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 2.90908, 7.03722 )
+
+[node name="FireSpread386" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 2.90908, 8.98722 )
+
+[node name="FireSpread387" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 1.3299, 7.03722 )
+
+[node name="FireSpread388" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 1.3299, 8.98722 )
+
+[node name="FireSpread389" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 6.43142, 10.9372 )
+
+[node name="FireSpread390" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 4.85224, 10.9372 )
+
+[node name="FireSpread391" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 6.43142, 7.03722 )
+
+[node name="FireSpread392" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 6.43142, 8.98722 )
+
+[node name="FireSpread393" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 4.85224, 8.98722 )
+
+[node name="FireSpread394" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 8.35224, 10.9372 )
+
+[node name="FireSpread395" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 8.35224, 7.03722 )
+
+[node name="FireSpread396" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 8.35224, 8.98722 )
+
+[node name="FireSpread397" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 2.90908, 5.10341 )
+
+[node name="FireSpread398" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 1.3299, 5.10341 )
+
+[node name="FireSpread399" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 2.90908, 3.13722 )
+
+[node name="FireSpread400" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 1.3299, 3.13722 )
+
+[node name="FireSpread401" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 6.43142, 5.10341 )
+
+[node name="FireSpread402" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 4.85224, 5.10341 )
+
+[node name="FireSpread403" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 6.43142, 3.13722 )
+
+[node name="FireSpread404" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 4.85224, 3.13722 )
+
+[node name="FireSpread405" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 8.35224, 5.10341 )
+
+[node name="FireSpread406" parent="Fire stuff" instance=ExtResource( 8 )]
+transform = Transform( 1.31134e-07, 0, 0.167094, 0, 1, 0, -1, 0, 2.19117e-08, -15.753, 8.35224, 3.13722 )
 
 [node name="Doors" type="Spatial" parent="."]
 

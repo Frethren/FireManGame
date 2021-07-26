@@ -1,6 +1,6 @@
 extends Spatial
 
-
+export(bool) var burning = false
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
@@ -11,14 +11,5 @@ func _ready():
 	pass # Replace with function body.
 
 func _process(delta):
-	if fire.scale_amount < 10:
-		fire.scale_amount *= 1.001
-	
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-
-
-
-	
-
+	if burning:
+		$AnimationPlayer.play("FireSpread")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Particles/1 - VXgkg8o.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/FIRE/Fire.gd" type="Script" id=3]
@@ -17,23 +17,63 @@ albedo_texture = ExtResource( 1 )
 [sub_resource type="QuadMesh" id=2]
 
 [sub_resource type="Curve" id=3]
-_data = [ Vector2( 0, 0.245455 ), 0.0, 0.0, 0, 0, Vector2( 0.273256, 0.790909 ), 0.0, 0.0, 0, 0, Vector2( 1, 0.218182 ), 0.0, 0.0, 0, 0 ]
+_data = [ Vector2( 0, 0.217045 ), 0.0, 0.0, 0, 0, Vector2( 0.325581, 0.8625 ), 0.0, 0.0, 0, 0, Vector2( 1, 0 ), 0.0, 0.0, 0, 0 ]
 
 [sub_resource type="Gradient" id=4]
 colors = PoolColorArray( 0.966125, 1, 0.566406, 1, 1, 0, 0, 1 )
+
+[sub_resource type="Animation" id=5]
+resource_name = "FireSpread"
+length = 10.0
+tracks/0/type = "bezier"
+tracks/0/path = NodePath("CPUParticles:emission_box_extents:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 10 )
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("CPUParticles:emission_box_extents:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 10 )
+}
+tracks/2/type = "bezier"
+tracks/2/path = NodePath("CPUParticles:emission_box_extents:z")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 10 )
+}
 
 [node name="Fire" type="Spatial"]
 script = ExtResource( 3 )
 
 [node name="CPUParticles" type="CPUParticles" parent="."]
-transform = Transform( 0.5, 0, 0, 0, -0.5, 4.37114e-08, 0, -4.37114e-08, -0.5, 0, 0, 0 )
+transform = Transform( 1.2, 0, 0, 0, -1.2, 1.04907e-07, 0, -1.04907e-07, -1.2, 0, 0, 0 )
 material_override = SubResource( 1 )
-amount = 30
+amount = 182
+lifetime = 1.33
 randomness = 1.0
+draw_order = 2
 mesh = SubResource( 2 )
 emission_shape = 2
-emission_box_extents = Vector3( 1, 1, 1 )
+emission_box_extents = Vector3( 0, 1, 1 )
 spread = 5.0
-gravity = Vector3( 0, -5, 0 )
+gravity = Vector3( 0, -2, 0 )
+scale_amount = 0.5
 scale_amount_curve = SubResource( 3 )
 color_ramp = SubResource( 4 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/FireSpread = SubResource( 5 )

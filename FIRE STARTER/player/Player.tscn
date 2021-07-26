@@ -1,9 +1,10 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://player/Interaction.gd" type="Script" id=1]
 [ext_resource path="res://player/Player.gd" type="Script" id=2]
 [ext_resource path="res://player/abilities/crosshair/Crosshair.tscn" type="PackedScene" id=3]
 [ext_resource path="res://player/player extras/hand.tscn" type="PackedScene" id=4]
+[ext_resource path="res://player/player extras/LEG.tscn" type="PackedScene" id=5]
 [ext_resource path="res://player/abilities/footstep_sound/FootstepSound.tscn" type="PackedScene" id=6]
 
 [sub_resource type="CapsuleShape" id=1]
@@ -35,15 +36,19 @@ shape = SubResource( 1 )
 
 [node name="MeshInstance" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 0, 0, 0 )
+visible = false
 cast_shadow = 0
 mesh = SubResource( 2 )
 material/0 = null
 
 [node name="KickRay" type="RayCast" parent="."]
-transform = Transform( 1, 6.68001e-09, 0, 6.60608e-09, 1, 0, 0, 3.26435e-08, 1, 0, 0.295553, -1.5 )
+transform = Transform( 1, 6.68001e-09, 0, 6.60608e-09, 1, 0, 0, 3.26435e-08, 1, -0.207077, 0.295553, -0.5 )
 enabled = true
-cast_to = Vector3( 0, 0, -1.4 )
+cast_to = Vector3( 0, 0, -2 )
 collision_mask = 2
+
+[node name="legs" parent="." instance=ExtResource( 5 )]
+transform = Transform( -0.35, 0, -3.0598e-08, 0, 0.21, 0, 3.0598e-08, 0, -0.35, -0.3, -0.740413, 0.0889151 )
 
 [node name="Head" type="Position3D" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0 )

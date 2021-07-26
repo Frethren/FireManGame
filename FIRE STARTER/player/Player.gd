@@ -31,6 +31,7 @@ onready var kickray = $KickRay
 
 
 func _ready():
+	$legs.visible = false
 	$Head/DirectionIndicator.hide()
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
@@ -82,9 +83,9 @@ func walk():
 func _physics_process(delta):
 	# To enable
 	if speed_multiplier == 2:
-		$Head/Movements/Camera.fov = lerp($Head/Movements/Camera.fov, 80, 5 * delta)
+		camera.fov = lerp(camera.fov, 80, 5 * delta)
 	else:
-		$Head/Movements/Camera.fov = lerp($Head/Movements/Camera.fov, 70, 5 * delta)
+		camera.fov = lerp(camera.fov, 70, 5 * delta)
 	
 	if direction != Vector3() and is_on_floor():
 		if not $CameraTween.is_active():
@@ -131,25 +132,22 @@ func _physics_process(delta):
 	if Input.is_action_just_pressed("Kick"):
 		#rotation_degrees.y -= event.relative.x * mouse_sensitivity / 10
 			#get global transform of camera
+		$legs.visible = true
 		var a = to_global(kickray.translation)
 		var b = kickray.get_collision_point()
 		var look_vec = b-a
 		look_vec = look_vec.normalized()
-		
+		$legs/AnimationPlayer.play("default")
+		yield(get_tree().create_timer(0.9), "timeout")
 		print(a, b, b-a,look_vec)
 		look_vec = look_vec
-			#get global transform of kickray
-			#find vector from camera to ray cast to
 		var door = kickray.get_collider() 
 		
 		if door and door.is_in_group("Door"):
-			print("Kicking")
+			
 			door.apply_impulse(door.to_local(b),look_vec * delta * 5)
-#		$AnimateKick.play("Kick")
-#		yield($AnimateKick, "animation_finished")
-		#get door collider(via ray)
-		#get forward vector of camera
-		#apply central impulse to door
+		yield($legs/AnimationPlayer,"animation_finished")
+		$legs.visible = false
 		
 
 		
