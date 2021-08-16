@@ -82,6 +82,10 @@ func walk():
 
 func _physics_process(delta):
 	# To enable
+	if Input.is_action_just_pressed("Menu"):
+		get_tree().quit()
+	if Input.is_action_just_pressed("Reset"):
+		get_tree().reload_current_scene()
 	if speed_multiplier == 2:
 		camera.fov = lerp(camera.fov, 80, 5 * delta)
 	else:
@@ -221,3 +225,5 @@ func crouching_animation(crouching):
 
 func _on_JumpTimer_timeout():
 	can_jump = true
+	
+	
