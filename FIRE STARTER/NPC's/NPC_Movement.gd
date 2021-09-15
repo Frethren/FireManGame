@@ -11,11 +11,23 @@ onready var player = $"../Player"
 var target = Vector3.ZERO
 
 func _ready():
-	target = Vector3(rand_range(-10,10),rand_range(-10,10),rand_range(-10,10))
+	new_path()
+#	target = Vector3(rand_range(-10,10),rand_range(-10,10),rand_range(-10,10))
+#	target = nav.get_closest_point(target)
+#	path = nav.get_simple_path(global_transform.origin, target)
+#	if path_node < path.size():
+#		var direction = (path[path_node] - global_transform.origin)
+#		if direction.length() < 1:
+#			path_node += 1
+#		else:
+#			move_and_slide(direction.normalized() * speed, Vector3.UP)
+			
+func new_path():
+	target = Vector3(rand_range(-40,40),rand_range(-40,40),rand_range(-40,40))
 	target = nav.get_closest_point(target)
 	path = nav.get_simple_path(global_transform.origin, target)
+	path_node = 0
 	
-
 func _physics_process(delta):
 	if path_node < path.size():
 		var direction = (path[path_node] - global_transform.origin)
@@ -23,6 +35,8 @@ func _physics_process(delta):
 			path_node += 1
 		else:
 			move_and_slide(direction.normalized() * speed, Vector3.UP)
+	else:
+		new_path()
 
 
 #func move_to(target_pos):
