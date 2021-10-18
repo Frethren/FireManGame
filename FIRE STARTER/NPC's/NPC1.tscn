@@ -23,5 +23,10 @@ material/0 = null
 
 [node name="Timer2" type="Timer" parent="."]
 
+[node name="RayCast" type="RayCast" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.333333, 0 )
+enabled = true
+cast_to = Vector3( 0, 0, -2 )
+
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
 [connection signal="timeout" from="Timer2" to="." method="_on_Timer_timeout"]

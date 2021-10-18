@@ -35,13 +35,19 @@ func _physics_process(delta):
 			path_node += 1
 		else:
 			move_and_slide(direction.normalized() * speed, Vector3.UP)
+		look_at(transform.origin + direction.normalized(), Vector3.UP)
 	else:
 		new_path()
-
+	
+	if $RayCast.is_colliding():
+		if $RayCast.get_collider().is_in_group("Door"):
+			new_path()
+		elif $RayCast.get_collider():
+			pass
 
 #func move_to(target_pos):
 #	path = nav.get_simple_path(global_transform.origin, target_pos)
 #	path_node = 0
 
-func _on_Timer_timeout():
-	move_and_slide(target)
+#func _on_Timer_timeout():
+#	move_and_slide(target)
