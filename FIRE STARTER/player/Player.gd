@@ -13,6 +13,8 @@ var movement = Vector3()
 var jump_height = 4
 var camera_height = 0.1
 
+
+
 var on_ground = false
 var is_crouched = false
 var head_angle = 0.2
@@ -119,7 +121,7 @@ func _physics_process(delta):
 			on_ground = false
 		else:
 			gravity_vec += Vector3.DOWN * gravity * delta
-	
+		
 	if Input.is_key_pressed(KEY_SPACE):
 		if is_on_floor() and can_jump:
 			jump()

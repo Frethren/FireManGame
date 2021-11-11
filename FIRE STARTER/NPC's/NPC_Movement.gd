@@ -23,7 +23,7 @@ func _ready():
 #			move_and_slide(direction.normalized() * speed, Vector3.UP)
 			
 func new_path():
-	target = Vector3(rand_range(-40,40),rand_range(-40,40),rand_range(-40,40))
+	target = Vector3(rand_range(-400,400),rand_range(-40,40),rand_range(-40,40))
 	target = nav.get_closest_point(target)
 	path = nav.get_simple_path(global_transform.origin, target)
 	path_node = 0
